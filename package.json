@@ -1,0 +1,20 @@
+{
+  "name": "dephy-hardhat",
+  "version": "0.0.1",
+  "description": "DePhy smart contracts for EVM chains",
+  "author": "jasl",
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "deploy": "hardhat run scripts/deploy.js",
+    "test": "hardhat --network hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^4.8.3",
+    "@openzeppelin/contracts-upgradeable": "^4.8.3",
+    "@openzeppelin/hardhat-upgrades": "^2.0.0",
+    "commander": "^11.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.17.3"
+  }
+}

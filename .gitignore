@@ -1,0 +1,16 @@
+node_modules
+coverage
+coverage.json
+typechain
+typechain-types
+
+**/tmp/**
+
+# DotEnv
+.env*
+!.env.example
+
+# Hardhat files
+cache
+artifacts
+.openzeppelin
